@@ -17,6 +17,7 @@
 - **Express.js**: Framework para manejar rutas y middlewares.
 - **MongoDB**: Base de datos NoSQL para almacenar la información de los videos.
 - **Mongoose**: ODM para interactuar con MongoDB.
+- **Clases JavaScript**: Modelos y controladores implementados utilizando clases para una mejor organización y reutilización de código.
 
 ### Infraestructura
 - **Vercel**: Despliegue del frontend.
