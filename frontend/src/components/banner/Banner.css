@@ -1,0 +1,88 @@
+.banner-container{
+    position: relative;
+    color: white;
+}
+.banner-image{
+    border: 3px solid var(--blue-light-color);
+    margin: 0 auto;
+}
+
+.video-player-wrapper-banner,
+.banner-subtitle, .banner-message
+{
+    display: none;
+}
+
+.banner-text-content-container{
+    display: none;
+}
+
+
+@media(min-width: 768px){
+    .video-player-wrapper-banner{
+        border: 5px solid var( --blue-light-color);
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 55%;
+        top: 58px;
+        right: 20px;
+    }
+    .banner-text-content-container{
+        display: block;
+        position: absolute;
+        width: 50%;
+        top: 250px;
+        left: 10px;
+    }
+    
+    .banner-subtitle{
+        display: block;
+        top: 10px;
+        left: 10px;
+        font-size: 2rem;
+    }
+    
+    .banner-message{
+        display: block;
+        top: 20px;
+        left: 50px;
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+}
+
+@media(min-width: 912px){
+    .banner-text-content-container{
+        top: 300px;
+    }
+    .banner-subtitle{
+        font-size: 2.1rem;
+    }
+
+    .banner-message{
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 1024px){
+    .banner-text-content-container{
+        top: 350px;
+    }
+    .banner-subtitle{
+        font-size: 2.1rem;
+    }
+
+    .banner-message{
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 1280px){
+    .banner-text-content-container{
+        top: 500px;
+    }
+}
+
+

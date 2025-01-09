@@ -1,0 +1,14 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: var(--dark-medium-background-color);
+    padding: 20px;
+
+}
+
+.main-sentence{
+    font-size: 1.2rem;
+    font-weight: bold;
+}

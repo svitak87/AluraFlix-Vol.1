@@ -1,0 +1,55 @@
+.navbar-container {
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: var(--dark-background-color);
+}
+
+.alura-logo {
+    max-width: 100px;
+}
+
+.buttons-navbar-container{
+    display: none;
+}
+
+
+.menu-icon {
+    font-size: 2.5rem;
+    color: var(--light-gray-color);
+    cursor: pointer;
+}
+
+.menu-container{
+    position: absolute;
+    width: 95%;
+    top: 70px;
+    z-index: 1000;
+}
+
+.list-item{
+    border: 1px solid var(--dark-background-color);
+    padding: 15px;
+    background-color: var(--dark-medium-background-color);
+    font-weight:400;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.list-item:hover{
+    background-color: var(--dark-background-color);
+    cursor: pointer;
+}
+
+@media(min-width: 768px){
+    .menu-icon{
+        display: none;
+    }
+    .buttons-navbar-container{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+}

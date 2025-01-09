@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build files (si usas un sistema de compilación o transpiler como TypeScript)
+build/
+dist/
+
+# Vercel deployment settings
+.vercel/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+

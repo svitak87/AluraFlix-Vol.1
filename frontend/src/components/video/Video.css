@@ -1,0 +1,106 @@
+.video-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .video-player-wrapper{
+    height: 200px;
+  }
+
+  /* .react-player{
+    margin-top: 50px;
+  }
+   */
+  .video-thumbnail {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #000;
+  }
+  
+  .thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .play-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .show-video {
+
+    width: 100%;
+    height: 300px;
+  }
+
+  .title-description-container{
+    padding: 20px;
+    line-height: 2rem;
+    position: relative;
+  }
+  
+  .title {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .description {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .icons-container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    margin-top: auto;
+  }
+
+  .text-icon{
+    font-size: 1rem;
+    margin-left: -40px;
+  }
+
+  .close-expanded-video-icon{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 1001;
+    cursor: pointer;
+  }
+
+  .big-screen-icon{
+    font-size: 3rem;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: rgb(15, 137, 236);
+    cursor: pointer;
+  }
+
+  .icon{
+    cursor: pointer
+  }
+
+  @media(min-width: 1024px){
+    .video-container{
+      width: 30px;
+    }
+  }
+
+
+  

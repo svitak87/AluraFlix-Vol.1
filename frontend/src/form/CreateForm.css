@@ -1,0 +1,53 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.header-form-createcontainer{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 15px;
+    line-height: 2rem;
+    color: white;
+}
+
+.header-form-createcontainer p:nth-child(2) {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: 40px;
+  }
+.header-form-createcontainer p:last-child{
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.title-form{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.text-input{
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: gray
+}
+
+.buttons-create-container{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
