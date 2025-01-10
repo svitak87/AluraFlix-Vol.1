@@ -6,7 +6,6 @@ class videosModel {
     this.collection = null; 
   }
 
-  // Método para asegurarnos de que la colección esté disponible después de la conexión
   async init() {
     const db = dbClient.getDb; 
     this.collection = db.collection("videos");

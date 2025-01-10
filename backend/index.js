@@ -32,5 +32,4 @@ const main = async () => {
 };
 main();
 
-// Exportamos el servidor para que Vercel lo utilice
 module.exports = server;
